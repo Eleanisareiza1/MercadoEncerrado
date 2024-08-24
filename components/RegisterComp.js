@@ -5,7 +5,7 @@ import styles from "../styles/globalStyles";
 const Register = ({data}) => {
     return(
         <View style={styles.card}>
-            <Image source={{uri:'data.foto'}} style={styles.photo}/>
+            <Image source={{uri:'data.photo'}} style={styles.photo}/>
             <Text>Usuario {data.user}</Text> 
             <Text>Contraseña{data.password} </Text>
             <Text>Correo{data.email}</Text>

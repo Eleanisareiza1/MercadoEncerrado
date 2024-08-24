@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
     photo: {
         width: 150,
         height: 150,
+        onRepeat: 'none'
     },
     button: {
         padding: 10,
@@ -49,6 +50,7 @@ const styles = StyleSheet.create({
         fontSize: 22,
         color: 'rgb(0, 0, 0)'
     },
+    
 });
 export default styles;
     
